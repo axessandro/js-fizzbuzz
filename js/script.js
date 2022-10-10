@@ -29,9 +29,10 @@ for(let i = 1; i <= 100; i++) {
         cell.innerHTML = "Buzz";
     } else {
         cell.innerHTML = i;
+        fizzCounter = "otherNumbers";
     }
     
-    cell.classList.add(`"${fizzCounter}"`);
+    cell.classList.add(`${fizzCounter}`);
     row.append(cell)
 
     console.log(cell);
